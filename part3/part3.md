@@ -1,0 +1,3 @@
+Part3 
+- SU is the state when the chat bot is tasked to summarize the documents for the user.
+- The chatbot uses a Router node to classify user queries based on their type, such as retrieval (RAG), Q&A and summarization (SU). Once classified, the query is routed to the appropriate chat model node (RagChat, QAChat, SUChat). The classification is done using a language model that determines the query's intent, and then the router directs the query to the corresponding node, which handles the specific response logic, like retrieving information, answering directly, or summarizing the content.

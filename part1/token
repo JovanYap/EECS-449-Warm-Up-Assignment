@@ -1,0 +1,11 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZjVhNGNmZTgxYjJkZmVlYjcxNDYyYiIsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsInJvb3RfaWQiOiI2NmY1YTRjZmU4MWIyZGZlZWI3MTQ2MmEiLCJpc19hY3RpdmF0ZWQiOnRydWUsImV4cGlyYXRpb24iOjE3Mjc0OTc1NjIsInN0YXRlIjoiZjlKSHpreVgifQ.h7STwKrWGITiSEFxKC_ECNxKgNTYphhuW1g5hUBBFGk
+
+curl -X POST http://localhost:8000/walker/interactive_walker \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZjVhNGNmZTgxYjJkZmVlYjcxNDYyYiIsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsInJvb3RfaWQiOiI2NmY1YTRjZmU4MWIyZGZlZWI3MTQ2MmEiLCJpc19hY3RpdmF0ZWQiOnRydWUsImV4cGlyYXRpb24iOjE3Mjc0OTc1NjIsInN0YXRlIjoiZjlKSHpreVgifQ.h7STwKrWGITiSEFxKC_ECNxKgNTYphhuW1g5hUBBFGk" \
+-H "Content-Type: application/json" \
+-d '{"input": "hello"}'
+
+curl -X POST http://localhost:8000/walker/fun_walker \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZjVhNGNmZTgxYjJkZmVlYjcxNDYyYiIsImVtYWlsIjoidGVzdEBtYWlsLmNvbSIsInJvb3RfaWQiOiI2NmY1YTRjZmU4MWIyZGZlZWI3MTQ2MmEiLCJpc19hY3RpdmF0ZWQiOnRydWUsImV4cGlyYXRpb24iOjE3Mjc0OTc1NjIsInN0YXRlIjoiZjlKSHpreVgifQ.h7STwKrWGITiSEFxKC_ECNxKgNTYphhuW1g5hUBBFGk" \
+-H "Content-Type: application/json" \
+-d '{"input": "tell me a joke"}'
